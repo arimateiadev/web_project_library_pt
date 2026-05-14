@@ -102,7 +102,8 @@
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   background-size: cover;
-  padding: 130px 0 280px;
+  padding-top: 130px;
+  padding-bottom: 280px;
 }
 
 .staff__title {
@@ -169,7 +170,7 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
-  margin: 0;
+  margin-top: auto;
 }
 .events {
   padding: 100px 0 120px 80px;
