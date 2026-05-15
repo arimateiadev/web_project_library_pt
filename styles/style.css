@@ -367,14 +367,16 @@
 
 .footer__columns {
   display: flex;
+  align-items: flex-start;
 }
 
 .footer__column_content_hours {
-  margin: 0 80px 0 auto;
+  margin-left: auto;
+  margin-right: 80px;
 }
 
 .footer__column_content_social {
-  margin-left: 80px;
+  margin-right: 0;
 }
 
 .footer__logo {
@@ -383,6 +385,7 @@
 }
 
 .footer__column-heading {
+  margin-top: 0;
   margin-bottom: 20px;
 }
 
@@ -393,7 +396,7 @@
 }
 
 .footer__list-item {
-  margin-bottom: auto;
+  margin-bottom: 16px;
 }
 
 .footer__column-link {
